@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13909" started-at="2021-11-28T10:06:07 EST" finished-at="2021-11-28T10:06:21 EST">
+    <groups>
+      <group name="smokeTest">
+        <method signature="T2_Runner.userlogin()[pri:1, instance:testcases.T2_Runner@7a1ebcd8]" name="userlogin" class="testcases.T2_Runner"/>
+        <method signature="T3_Runner.userlogin()[pri:1, instance:testcases.T3_Runner@5faeada1]" name="userlogin" class="testcases.T3_Runner"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test name="Test" duration-ms="13909" started-at="2021-11-28T10:06:07 EST" finished-at="2021-11-28T10:06:21 EST">
+      <class name="testcases.T3_Runner">
+        <test-method status="PASS" signature="userlogin()[pri:1, instance:testcases.T3_Runner@5faeada1]" name="userlogin" duration-ms="5861" started-at="2021-11-28T10:06:15 EST" finished-at="2021-11-28T10:06:21 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogin -->
+      </class> <!-- testcases.T3_Runner -->
+      <class name="testcases.T2_Runner">
+        <test-method status="PASS" signature="userlogin()[pri:1, instance:testcases.T2_Runner@7a1ebcd8]" name="userlogin" duration-ms="7991" started-at="2021-11-28T10:06:07 EST" finished-at="2021-11-28T10:06:15 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogin -->
+      </class> <!-- testcases.T2_Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
